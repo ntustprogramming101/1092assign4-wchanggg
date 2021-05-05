@@ -526,10 +526,12 @@ for(int i=0 ;  i< playerHealth; i++){
   }}
 
 
-				  // Initialize soidiers and their position
+ // Initialize soidiers and their position
   for(int i = 0; i < 6; i++){
       soldierX[i] = int(random(8)) * block ;
       soldierY[i] = (int(random(4)) + 4 * i) * block;
+     soldierX[i] = -block;
+
     }
 
   // Initialize cabbages and their position
